@@ -1,14 +1,16 @@
 
 ///Strings
 //First, declare variable named firstName.
-
+var firstname
 //Assign firstName to a string value of your first name.
-
+var firstname = 'sydney' 
 //Declare another variable named lastName and assign it the value of your last name.
-
+var lastname = 'boyd'
 //Then declare another variable named fullName and assign it to the current value of firstName and lastName and have the joined values separated with a space character.
-
+var fullname = firstName + '' + lastName;
 //Remember that computer languages will not add the space character for you so how would you do that manually?
+create a string that has a space and use the join operator to add 
+
 
 
 
@@ -19,11 +21,13 @@
 
 //Numbers
 //Declare a variable named luckyNumber.
-
+var luckyNumber;
 //Assign luckyNumber to a number of your choice.
-
+var luckyNumber = 5 
 //Declare another variable named luckyNumberTimes2 and assign it the value of luckyNumber multiplied by 2.
+var luckyNumberTimes2 = luckyNumber + 2
 
+ 
 
 
 
@@ -36,10 +40,14 @@
 
 //Booleans
 //Declare a variable named myBool and assign it the value of true.
+var myBool
 
+var y = new myBool(true);
 
 //Then, declare another named isEqualTo and assign it the value of strictly comparing luckyNumber and luckyNumberTimes2.
+var isEqualTo
 
+var isEqualTo = (5*2 = 10)
 
 
 
@@ -68,6 +76,10 @@ factorial(8); // => 40320 (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
 function factorial(number){
 //CODE BELOW HERE
 
+input: number
+output: number 
+
+var answer = 1;
 
 
 //CODE ABOVE HERE
@@ -81,6 +93,16 @@ function factorial(number){
 /*
 2. Create a function reverseString that takes in a string
  and returns the reversed version.
+   
+
+   
+
+
+
+
+
+
+
 
 Example: 
 reverseString('Hello, World!'); // => '!dlroW ,olleH'
